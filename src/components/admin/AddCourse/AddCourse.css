@@ -1,0 +1,25 @@
+.add-course-container{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+.add-course-container h2{
+    margin-bottom: 30px;
+}
+
+.add-course-container form{
+    width: 100%;
+}
+
+.add-course-container form .btn{
+    display: block;
+}
+
+.add-course-container form input{
+    margin: auto;
+}
+
+.dropdown-item{
+    color: black !important;
+}

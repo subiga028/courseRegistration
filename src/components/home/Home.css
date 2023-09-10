@@ -1,0 +1,129 @@
+
+
+.bold{
+    font-size: 50px;
+    text-align: center;
+    margin: auto;
+}
+
+.popular-subjects a{
+
+    border: 1px solid rgba(117, 75, 200, 0.725);
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-right: 20px;
+    transition: 0.8s;
+}
+
+.popular-subject{
+    margin: 100px auto;
+}
+
+.popular-subjects
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    
+}
+
+.popular-subjects a{
+    transition: 1s !important;
+}
+
+.fa{
+    margin-right: 10px;
+    color: rgb(45, 166, 105);
+}
+
+.popular-subjects a:hover{
+    background-color: rgba(143, 48, 232, 0.452);
+    color: white !important;
+    border-radius: 10px;
+}
+
+.popular-subject h2{
+    margin-bottom: 50px;
+}
+.popular-subjects a img{
+    width:100px;
+    background-color: white;
+    border-radius: 70%;
+}
+
+.review,.add-review,.about-us{
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    margin: 100px auto;
+}
+
+.review-card img{
+    width: 15%;
+}
+
+.review h2{
+    margin-bottom: 50px;
+}
+
+.review-card{
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    padding: 50px 40px;
+    transition: 1s;
+    border-radius: 20px;
+
+}
+
+.review-card:hover{
+    box-shadow: 0px 0px 6px 2px rgb(179, 179, 179);
+    
+}
+
+
+.add-review{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.add-review form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 0px 6px 2px rgb(200, 199, 199);
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.form-control{
+    width: 100%;
+}
+
+footer{
+    background-color: rgb(34,34,34);
+    color:white;
+}
+
+.logo a{ 
+
+    color:blue;
+}
+
+.logo img{
+    width: 300px;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+

@@ -1,0 +1,20 @@
+.page-not-found{
+    margin: 0 auto;
+    padding: 40px;
+    border: 2px solid black;
+    width: 40%;
+    font-size: 30px;
+}
+
+.page-not-found > h6{
+    font-size: 100px;
+}
+
+.container-center{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    height: 100vh;
+    width: 100vw;
+    /* padding:0 20%; */
+}
